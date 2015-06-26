@@ -1,0 +1,30 @@
+{
+    "name": "amgine0/users",
+    "description": "Minimalist user module for api0",
+    "homepage": "https://github.com/Amgine0/users",
+    "license": "WTFPL-2.0",
+    "keywords": ["user"],
+    "authors": [
+        {
+            "name": "Amgine",
+            "email": "amgine@wikimedians.ca",
+            "homepage": "https://saewyc.ca",
+            "role": "developer"
+        }
+    ],
+    "suppport": {
+        "email": "amgine@wikimedians.ca",
+        "irc": "irc://irc.freenode.org/Pleonasm"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amgine0\\Api0\\Users\\": "src/"
+        }
+    }
+}
